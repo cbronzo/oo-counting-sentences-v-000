@@ -30,6 +30,7 @@ class String
   def count_sentences
     self.squeeze(".")
     self.split(/[!?.]/).count
+    binding.pry
 end
 
 
